@@ -4,4 +4,5 @@ print "Hello, world!\n";
 while(++$nn < 300 ){
     print "$nn\n";
     usleep(500000);
+    $nn = 0;
 }
