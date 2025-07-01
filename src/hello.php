@@ -1,5 +1,7 @@
 <?php
-print "Hello, world!";
-while(1){
-    sleep(1);
+$nn = 0;
+print "Hello, world!\n";
+while(++$nn < 300 ){
+    print "$nn\n";
+    usleep(500000);
 }
